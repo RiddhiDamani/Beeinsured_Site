@@ -48,15 +48,10 @@ h2 {
 	font-weight: bold;
 }
 
-/*.main-content {*/
-	/*width: 100%
-	height: 30%;*/
-	/*text-align: center;*/
-/*	background-image: url("./images/bg.png");*/
-	/*background-repeat: no-repeat;
-    background-size: cover;
-	margin:0;*/
-/*}*/
+.main-content {
+	width: 100%;
+	background-image: url("./images/bg.png");
+}
 
 .row {
 	text-align: center;
@@ -263,7 +258,7 @@ h5 {
 	width: 100%;
 	height: 150px;
 	padding: 35px;
-	border-bottom: 2px solid gray;
+	border-bottom: 2px solid #e6e6e6;
 }
 
 .comments ul {
@@ -278,12 +273,22 @@ li.format {
 	padding-left: 45px;
 }
 
-/*.pagination-container {
+.pagination-container {
 	width: 100%;
-	background-color: gray;
-	height: 100px;
-}*/
+	background-color: #e6e6e6;
+	height: auto;
+	padding: 30px;
+	
+}
 
+.pagination {
+	margin-bottom: 0px;
+}
+
+.page-link {
+	border:none;
+	background-color: unset;
+}
 
 
 footer {
@@ -368,16 +373,20 @@ footer {
    font-size: 14px;
 }
 
+.foot-row .col a {
+	color: #bfbfbf;
+}
+
 .tf1 {
 
-	color: white;
+	color: #bfbfbf;
 	font-size: 15px;
 	font-weight: normal;
 }
 
 .lf1 {
 
-	color: white;
+	color: #bfbfbf;
 	font-size: 12px;
 	font-weight: normal;
 }
