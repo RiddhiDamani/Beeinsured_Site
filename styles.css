@@ -9,6 +9,11 @@ body {
 	text-align: center;
 	padding-top: 2%;
 
+
+}
+
+.navbar {
+	border-top: 2px solid #49321d;
 }
 
 h2 {
@@ -58,7 +63,7 @@ h2 {
 }
 
 .row3 {
-	padding: 10px 50px 10px 50px;
+	padding: 10px 40px 10px 40px;
 }
 
 #quote {
@@ -92,14 +97,22 @@ p>a {
 	color: #212529;
 }
 
+.btn {
+	vertical-align: text-bottom;
+	white-space: normal;
+	text-align: 
+}
+
 .button .btn {
 	width: 80px;
 	height: 80px;
 	padding: 0px;
 	float: right;
 	margin-bottom: 3px;
-	font-size: 12px;
+	font-size: 16px;
 	border-radius: 0px;
+	line-height: 18px;
+
 }
 	
 .clear {
@@ -112,6 +125,7 @@ p>a {
 }
 
 hr {
+
 	border: 1px solid gray;
 	width: 98%;
 	border-top: 1px solid #f8f8f8;
@@ -169,6 +183,7 @@ h5 {
 .renewal-container {
 	width: 100%;
 	background-color: #ef9137;
+	border-bottom: 3px solid #bfbfbf;
 }
 
 .renewal-header h4 {
@@ -332,10 +347,10 @@ footer {
 }
 
 .foot-links li a {
-	color: white;
+	color: #bfbfbf;
 	padding-right: 5px;
 	padding-left: 5px;
-	border-right: 1px solid white;
+	border-right: 1px solid #bfbfbf;
 }
 
 #last-child1 {
@@ -350,6 +365,7 @@ footer {
 	text-align: right;
 	font-size: 15px;
 	line-height: 22px;
+	color: #bfbfbf;
 }
 
 .panel-footer .row {
